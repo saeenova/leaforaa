@@ -170,20 +170,17 @@ a { color: inherit; }
   background-repeat: no-repeat;
   overflow: hidden;
 }
-@media (max-width: 768px) {
 
-  .hero {
+
+@media (max-width: 768px){
+
+  .hero{
     background-image: url("assets/hero-mobile.png");
     background-size: cover;
     background-position: center top;
-
-    min-height: auto;
-    padding-top: 100px;
-    padding-bottom: 40px;
   }
 
 }
-
 .hero-overlay {
   position: absolute;
   inset: 0;
